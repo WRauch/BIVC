@@ -143,7 +143,7 @@ padding-right: 0px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.list-group-mine .list-group-item {
+.list-group-mine {
     background-color: #123512;
     border-top: 1px solid #fff;
     border-left-color: #fff;
@@ -173,5 +173,25 @@ padding-right: 0px;
     width: 75%;
   }
 .no-marg {
-    margin-right: 0px;
+    margin: 0px;
 }
+
+.bg-green {
+    background-color: #123512;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.navbar{
+    background-color: #123512;
+    border: 1px solid #fff;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    color: #fff;
+    font-size: large;
+  }
+  .notop{
+    border-top: none;
+  }
