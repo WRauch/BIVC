@@ -1,0 +1,14 @@
+
+.navbar .navbar-text{
+    background-color: #123512;
+    border: 1px solid #fff;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    color: red;
+    font-size: large;
+  }
+
+  .navbar-custom  {  
+    color: rgb(102, 13, 245);  
+}  
