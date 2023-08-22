@@ -1,14 +1,14 @@
+.list-group-mine .list-group-item {
+  background-color: #123512;
+  border-top: 1px solid #fff;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  color: #fff;
+  font-size: large;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 
-.list-group-mine {
-    background-color: #123512;
-    border-top: 1px solid #fff;
-    border-left-color: #fff;
-    border-right-color: #fff;
-    border-bottom-color: #fff;
-    color: #fff;
-    font-size: large;
-    font-family:Georgia, 'Times New Roman', Times, serif
-  }
 
 .center-text {
     text-align: center;

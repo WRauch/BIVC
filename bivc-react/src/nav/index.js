@@ -36,6 +36,18 @@ const Nav = () => {
         </ul>
       </li>
     </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown d-flex">
+        <h5 class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Organizations
+        </h5>
+        <ul class="dropdown-menu list-group-mine">
+          <li><Link class="dropdown-item" to={"https://cabustinsisland.wordpress.com/"}>CABI Website</Link></li>
+          <li><Link class="dropdown-item" to={"https://bustinsislandhistoricalsociety.yolasite.com/"}>Bustins Island Historical Society</Link></li>
+          <li><a class="dropdown-item">Something else here</a></li>
+        </ul>
+      </li>
+    </ul>
   </div>
 
 </div>
