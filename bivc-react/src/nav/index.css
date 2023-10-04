@@ -1,14 +1,6 @@
 
-.navbar .navbar-text{
-    background-color: #123512;
-    border: 1px solid #fff;
-    border-left-color: #fff;
-    border-right-color: #fff;
-    border-bottom-color: #fff;
-    color: red;
-    font-size: large;
-  }
 
-  .navbar-custom  {  
-    color: rgb(102, 13, 245);  
-}  
+.navbar-dark {
+  background-color: #123512 !important;
+  border: 2px solid #fff;
+}

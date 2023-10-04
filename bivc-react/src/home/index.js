@@ -13,21 +13,20 @@ const Home = () => {
 
   <div class="row mt-2">
 
-  <div class="col-12 col-lg-6 mt-2">
 
+  <div class=" col-12 col-lg-6 mt-2">
       <ul class="list-group list-group-mine">
-      <div class="bg-danger d-flex align-items-center justify-content-center fw-bold font-med mb-2">
-
-                            <a href="docs/Other/S - Emergency Basics.pdf"> Emergency Information </a>
-
-                        </div>
           <li class="list-group-item">
               <h3 class="center-text">
-                  Announcements
+                  Seasonal Info
               </h3>
           </li>
           <li class="list-group-item">
-            This is Where you can put announcements
+          <div class="bg-danger d-flex align-items-center justify-content-center fw-bold font-med">
+                            ANY Emergency - read &nbsp; <a href="docs/Other/S - Emergency Basics.pdf">  Emergency Basics </a> &nbsp; & call 911
+
+                        </div>
+          Ferry Phone: (207) 751-2283
           </li>
         </ul>
     </div>
@@ -44,19 +43,6 @@ const Home = () => {
 
 
 
-    <div class="mt-2">
-      <ul class="list-group list-group-mine">
-          <li class="list-group-item">
-              <h3 class="center-text">
-                  Lilly B. Information
-              </h3>
-          </li>
-          <li class="list-group-item">
-          Ferry Phone: (207) 751-2283
-          Truck Phone: (207) 233-8368
-          </li>
-        </ul>
-    </div>
 
 
 
