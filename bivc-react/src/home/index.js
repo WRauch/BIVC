@@ -15,19 +15,48 @@ const Home = () => {
 
 
   <div class=" col-12 col-lg-6 mt-2">
-      <ul class="list-group list-group-mine">
+      <ul class="list-group list-group-mine ">
           <li class="list-group-item">
               <h3 class="center-text">
                   Seasonal Info
               </h3>
+              <div class="bg-danger d-flex align-items-center justify-content-center fw-bold font-med">
+                            ANY Emergency - read &nbsp; <a href="docs/Other/S - Emergency Basics.pdf">  Emergency Basics </a> &nbsp; & call 911
+                        </div>
           </li>
           <li class="list-group-item">
-          <div class="bg-danger d-flex align-items-center justify-content-center fw-bold font-med">
-                            ANY Emergency - read &nbsp; <a href="docs/Other/S - Emergency Basics.pdf">  Emergency Basics </a> &nbsp; & call 911
 
-                        </div>
+        <h4 className=" d-flex align-items-center justify-content-center">Lilly B.</h4>
           Ferry Phone: (207) 751-2283
+          <br/>
+          <a href="docs/Seasonal/Ferry%20Schedule.pdf">Ferry Schedule and Rates</a><br/>
+        <a href="docs/Seasonal/Freight List v1.0.pdf">Ferry Freight Rate List</a><br/>
           </li>
+        <li class="list-group-item">
+            <h4 className=" d-flex align-items-center justify-content-center">
+                Island Truck
+            </h4>
+
+            Truck Service starts Friday May 19<br/>
+            Truck Phone: (207) 233-8368<br/><br/>
+            <img src="bivc-truck.jpg" width="40%" class="img-fluid float-end" alt="Responsive image"/>
+
+            Trash Service Begins May 29<br/>
+            <a href="docs/Policies/120 Trash Disposal Policy.pdf">Trash Disposal Policy</a><br/>
+            <a href="docs/Seasonal/Trash Fee Rates.pdf">Trash Fee Rates</a><br/>
+
+        </li>
+        <li class="list-group-item">
+        <h4 className=" d-flex align-items-center justify-content-center">
+                Island Services
+            </h4>
+            <b>BIVC wells</b> open for the first time on May 6. <br/>
+                                <a href="docs/Seasonal/Well%20Schedule.pdf">Well Schedule</a><br/><br/>
+                                The <strong>Post Office</strong> will open on Friday, June 23, 2023, <br/>
+                                 and will close on Saturday, September 2, 2023. <br/>
+                             <br/>
+
+        </li>
         </ul>
     </div>
 

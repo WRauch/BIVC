@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './home';
-import Meetings from './meetings';
+import Overseers from './overseers';
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
@@ -13,8 +13,10 @@ function App() {
         <Routes>
           <Route path = "/*"
                  element={<Home/>}/>
-          <Route path = "meetings"
-                 element={<Meetings/>}/>
+          <Route path = "overseers"
+                 element={<Overseers/>}/>
+          <Route path = "planning"
+                 element={<Overseers/>}/>
         </Routes>
       </div>
       </div>

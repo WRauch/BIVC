@@ -19,7 +19,8 @@ const Nav = () => {
           BIVC Information
         </h5>
         <ul class="dropdown-menu list-group-mine">
-          <li><Link class="dropdown-item" to={"/meetings"}>Meetings</Link></li>
+          <li><Link class="dropdown-item" to={"/overseers"}>Board of Overseers</Link></li>
+          <li><Link class="dropdown-item" to={"/planning"}>Planning Board</Link></li>
           <li><Link class="dropdown-item" to={"/documents"}>Documents</Link></li>
           <li><Link class="dropdown-item" to={"/orginization"}>Organization</Link></li>
 
