@@ -7,11 +7,13 @@ const Nav = () => {
     return(
 <nav class="navbar navbar-dark navbar-expand-lg mb-2">
 <div class="container-fluid">
+<Link className="navbar-brand" to="/">Home</Link> 
+
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Docs" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="Docs">
-  <Link className="navbar-brand" to="/">Home</Link> 
+  <div className=" collapse navbar-collapse" id="Docs">
+
 
     <ul class="navbar-nav">
       <li class="nav-item dropdown d-flex">
@@ -71,8 +73,7 @@ const Nav = () => {
       </li>
     </ul>
   </div>
-
-</div>
+  </div>
 </nav>
 
     );

@@ -9,9 +9,9 @@ const Home = () => {
 
    <Nav/>
 
-  <img src="bivc_logo.jpg" class="center"/>
+  <img src="bivc_logo.jpg" class="center max-height"/>
 
-  <div class="row mt-2">
+  <div class="row">
 
 
   <div class=" col-12 col-lg-6 mt-2">
@@ -20,31 +20,50 @@ const Home = () => {
               <h3 class="center-text">
                   Seasonal Info
               </h3>
-              <div class="bg-danger d-flex align-items-center justify-content-center fw-bold font-med">
-                            ANY Emergency - read &nbsp; <a href="docs/Other/S - Emergency Basics.pdf">  Emergency Basics </a> &nbsp; & call 911
+              <div class="bg-danger d-flex justify-content-center text-center fw-bold font-med">
+                <div>
+                ANY Emergency Read &nbsp; <a href="docs/Other/S - Emergency Basics.pdf">  Emergency Basics </a> 
+                &nbsp; & call 911
+                </div>
+
                         </div>
           </li>
           <li class="list-group-item">
 
         <h4 className=" d-flex align-items-center justify-content-center">Lilly B.</h4>
+        {/* <img src="lillyb.jpg" width="30%" height="200%" class="img-fluid d-flex float-end " alt="Responsive image"/> */}
+
+        <div className="d-flex justify-content-center text-center">
+          <div>
           Ferry Phone: (207) 751-2283
-          <br/>
-          <a href="docs/Seasonal/Ferry%20Schedule.pdf">Ferry Schedule and Rates</a><br/>
+        <br/>
+
+
+        <a href="docs/Seasonal/Ferry%20Schedule.pdf">Ferry Schedule and Rates</a><br/>
         <a href="docs/Seasonal/Freight List v1.0.pdf">Ferry Freight Rate List</a><br/>
+          </div>
+
+        </div>
+
           </li>
         <li class="list-group-item">
             <h4 className=" d-flex align-items-center justify-content-center">
                 Island Truck
             </h4>
+            {/* <img src="bivc-truck.jpg" width="40%" class="img-fluid d-flex float-end " alt="Responsive image"/> */}
 
+
+            <div className="d-flex justify-content-center text-center">
+          <div>
             Truck Service starts Friday May 19<br/>
             Truck Phone: (207) 233-8368<br/><br/>
-            <img src="bivc-truck.jpg" width="40%" class="img-fluid float-end" alt="Responsive image"/>
 
             Trash Service Begins May 29<br/>
             <a href="docs/Policies/120 Trash Disposal Policy.pdf">Trash Disposal Policy</a><br/>
             <a href="docs/Seasonal/Trash Fee Rates.pdf">Trash Fee Rates</a><br/>
 
+          </div>
+          </div>
         </li>
         <li class="list-group-item">
         <h4 className=" d-flex align-items-center justify-content-center">
@@ -76,7 +95,7 @@ const Home = () => {
 
 
 </div>
-    </div>
+  </div>
 
  );
 };
