@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './home';
 import Overseers from './overseers';
+import Docs from './documents';
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
@@ -17,6 +18,8 @@ function App() {
                  element={<Overseers/>}/>
           <Route path = "planning"
                  element={<Overseers/>}/>
+          <Route path = "docs"
+                 element={<Docs/>}/>
         </Routes>
       </div>
       </div>

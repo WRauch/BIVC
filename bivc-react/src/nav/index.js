@@ -23,7 +23,7 @@ const Nav = () => {
         <ul class="dropdown-menu list-group-mine">
           <li><Link class="dropdown-item" to={"/overseers"}>Board of Overseers</Link></li>
           <li><Link class="dropdown-item" to={"/planning"}>Planning Board</Link></li>
-          <li><Link class="dropdown-item" to={"/documents"}>Documents</Link></li>
+          <li><Link class="dropdown-item" to={"/docs"}>Documents</Link></li>
           <li><Link class="dropdown-item" to={"/orginization"}>Organization</Link></li>
 
         </ul>
