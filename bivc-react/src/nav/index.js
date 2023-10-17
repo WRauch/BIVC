@@ -25,6 +25,7 @@ const Nav = () => {
           <li><Link class="dropdown-item" to={"/planning"}>Planning Board</Link></li>
           <li><Link class="dropdown-item" to={"/docs"}>Documents</Link></li>
           <li><Link class="dropdown-item" to={"/orginization"}>Organization</Link></li>
+          <li><Link class="dropdown-item" to={"/guide"}>Owner's And Renter's Guide</Link></li>
 
         </ul>
       </li>
@@ -41,6 +42,7 @@ const Nav = () => {
           <li><Link class="dropdown-item">Casco Bay</Link></li>
           <li><Link class="dropdown-item">Casco Bay Marine Forecast</Link></li>
           <li><Link class="dropdown-item" to={"http://www.nfpa.org/Public-Education/By-topic/Wildfire/Firewise-USA"}>Firewise</Link></li>
+
         </ul>
       </li>
     </ul>

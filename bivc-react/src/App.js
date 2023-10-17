@@ -4,6 +4,9 @@ import Overseers from './overseers';
 import Docs from './documents';
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
+import Planning from './planning';
+import Org from './organization';
+import Guide from './guide';
 
 function App() {
   return (
@@ -17,9 +20,13 @@ function App() {
           <Route path = "overseers"
                  element={<Overseers/>}/>
           <Route path = "planning"
-                 element={<Overseers/>}/>
+                 element={<Planning/>}/>
           <Route path = "docs"
                  element={<Docs/>}/>
+          <Route path = "orginization"
+                 element={<Org/>}/>
+          <Route path = "guide"
+                 element={<Guide/>}/>
         </Routes>
       </div>
       </div>
